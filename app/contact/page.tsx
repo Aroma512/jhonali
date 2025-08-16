@@ -4,9 +4,9 @@ export default function ContactPage() {
   return (
     <div className="max-w-4xl mx-auto py-16 px-4">
       <h1 className="text-3xl font-bold text-[#3e2c23] mb-8 text-center">Contact Us</h1>
+      {/* Map for Al Saniya, Al Ain, Bengali Masjid, UAE placed below heading and above Contact Details */}
       <div className="flex flex-col items-center gap-8">
-        {/* Map for Al Saniya, Al Ain, Bengali Masjid, UAE */}
-        <div className="w-full md:w-[600px] h-72 rounded-lg overflow-hidden border shadow-lg">
+        <div className="w-full md:w-[600px] h-72 rounded-lg overflow-hidden border shadow-lg mb-4">
           <iframe
             src="https://www.google.com/maps?q=Al+Saniya+Bengali+Masjid,+Al+Ain,+UAE&output=embed"
             width="100%"
