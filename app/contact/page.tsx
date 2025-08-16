@@ -5,7 +5,19 @@ export default function ContactPage() {
     <div className="max-w-4xl mx-auto py-16 px-4">
       <h1 className="text-3xl font-bold text-[#3e2c23] mb-8 text-center">Contact Us</h1>
       <div className="flex flex-col items-center gap-8">
-        {/* Removed map iframe */}
+        {/* Map for Al Saniya, Al Ain, Bengali Masjid, UAE */}
+        <div className="w-full md:w-[600px] h-72 rounded-lg overflow-hidden border shadow-lg">
+          <iframe
+            src="https://www.google.com/maps?q=Al+Saniya+Bengali+Masjid,+Al+Ain,+UAE&output=embed"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen={true}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Jhonali Decor Master Location"
+          />
+        </div>
         <div className="text-[#3e2c23] text-center w-full max-w-md">
           <div className="space-y-6">
             <div>
@@ -21,7 +33,6 @@ export default function ContactPage() {
                 <span dir="rtl" className="block">الإمارات، العين، الصناعية، مسجد بنغالي</span>
               </div>
             </div>
-            {/* Removed working hours and email */}
             <div className="flex flex-col items-center gap-4">
               <a
                 href="https://wa.me/971501524596"
