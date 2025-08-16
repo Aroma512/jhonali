@@ -5,19 +5,7 @@ export default function ContactPage() {
     <div className="max-w-4xl mx-auto py-16 px-4">
       <h1 className="text-3xl font-bold text-[#3e2c23] mb-8 text-center">Contact Us</h1>
       <div className="flex flex-col items-center gap-8">
-        <div className="w-full md:w-[600px] h-72 rounded-lg overflow-hidden border shadow-lg">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1!2d0!3d0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z4b8g4b8g4b8!5e0!3m2!1sen!2s!4v1625072000000!5m2!1sen!2s"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen={true}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Jhonali Decor Master Location"
-          />
-        </div>
-        
+        {/* Removed map iframe */}
         <div className="text-[#3e2c23] text-center w-full max-w-md">
           <div className="space-y-6">
             <div>
@@ -32,36 +20,9 @@ export default function ContactPage() {
                 <br />
                 <span dir="rtl" className="block">الإمارات، العين، الصناعية، مسجد بنغالي</span>
               </div>
-              <div className="mt-2 font-semibold flex items-center justify-center gap-2">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-                </svg>
-                jhonalicarpenter@gmail.com
-              </div>
             </div>
-
-            <div>
-              <div className="font-semibold mb-2">Working Hours:</div>
-              <div className="text-sm">
-                Sunday - Thursday: 9:00 AM - 8:00 PM
-                <br />
-                Friday - Saturday: 10:00 AM - 6:00 PM
-              </div>
-            </div>
-
+            {/* Removed working hours and email */}
             <div className="flex flex-col items-center gap-4">
-              <a
-                href="mailto:jhonalicarpenter@gmail.com"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-[#3e2c23] text-white rounded-lg font-semibold shadow hover:bg-[#5c4636] transition"
-              >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-                </svg>
-                Email Us
-              </a>
-              
               <a
                 href="https://wa.me/971501524596"
                 target="_blank"
